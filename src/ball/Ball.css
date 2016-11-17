@@ -1,0 +1,26 @@
+.ball-container {
+  height: 100px;
+  text-align: center;
+}
+
+.ball-container img {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  margin:  auto;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    top: 100px;
+  }
+
+  75% {
+    top: 60px;
+  }
+
+  100% {
+    top: 100px;
+  }
+}
